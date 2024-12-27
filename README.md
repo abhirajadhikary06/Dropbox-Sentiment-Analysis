@@ -1,5 +1,5 @@
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="assets/main.png" alt="Dropbox User Sentiment Analysis" style="width: 5000px; height: 210px;">
+    <img src="assets/main.png" alt="Dropbox User Sentiment Analysis">
 </div>
 # Dropbox User Sentiment Analysis 🗳️
 
