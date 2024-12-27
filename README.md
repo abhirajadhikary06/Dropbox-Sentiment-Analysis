@@ -1,6 +1,7 @@
 <div style="text-align: center; margin-bottom: 20px;">
     <img src="assets/main.png" alt="Dropbox User Sentiment Analysis">
 </div>
+
 ---
 
 # Dropbox User Sentiment Analysis 🗳️
