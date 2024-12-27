@@ -1,6 +1,8 @@
 <div style="text-align: center; margin-bottom: 20px;">
     <img src="assets/main.png" alt="Dropbox User Sentiment Analysis">
 </div>
+---
+
 # Dropbox User Sentiment Analysis 🗳️
 
 Welcome to the **Dropbox User Sentiment Analysis** project! This repository is part of the **Airbyte + Motherduck Hackathon**, showcasing how to integrate **Google Sheets** with **Motherduck** using Airbyte. The goal? To build an insightful **Sentiment Analysis Dashboard** for Dropbox app reviews! 🚀
