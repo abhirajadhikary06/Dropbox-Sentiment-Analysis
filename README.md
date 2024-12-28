@@ -2,7 +2,7 @@
     <img src="assets/main.png" alt="Dropbox User Sentiment Analysis">
 </div>
 <div style="text-align: center; margin-bottom: 20px;">
-    <img src="assets/main.png" alt="Dropbox User Sentiment Analysis">
+    <img src="assets/main-2.png" alt="Dropbox User Sentiment Analysis">
 </div>
 ---
 
