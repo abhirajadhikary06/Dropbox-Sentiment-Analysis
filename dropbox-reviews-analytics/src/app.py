@@ -125,6 +125,6 @@ for category in ['Negative', 'Neutral', 'Positive']:
 st.markdown("---")
 st.markdown("""
     <center>
-    <p>Sentiment Analysis of 📥 by <span style='color:#0061FF'>abhirajadhikary06</span></p>
+    <p>Sentiment Analysis of 📥 by <a href="https://github.com/abhirajadhikary06" style='color:#0061FF' target="_blank">abhirajadhikary06</a></p>
     </center>
 """, unsafe_allow_html=True)
