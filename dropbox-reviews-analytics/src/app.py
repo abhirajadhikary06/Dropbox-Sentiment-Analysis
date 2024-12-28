@@ -97,7 +97,10 @@ fig_sentiment_rating.update_layout(
     xaxis_title='Review Score',
     yaxis_title=f'Average {sentiment_type}',
     showlegend=False,
-    hoverlabel=dict(bgcolor="white")
+    hoverlabel=dict(
+        bgcolor="#0E1117",
+        font=dict(color="#FAFAFA")
+    )
 )
 
 st.plotly_chart(fig_sentiment_rating, use_container_width=True)
