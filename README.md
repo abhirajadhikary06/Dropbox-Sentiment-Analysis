@@ -123,6 +123,11 @@ This project is licensed under the CC0-1.0 License. See the `LICENSE` file for d
 
 ---
 
+## 📝 Blog
+This blog covers the complete process of the project building 
+- [Leveraging Airbyte 🪼 and Motherduck 🦆 for Sentiment Analysis](https://dev.to/abhirajadhikary06/leveraging-airbyte-and-motherduck-for-sentiment-analysis-13km)
+- [📊 Dropbox User Sentiment Analysis using Airbyte 🪼 and Motherduck 🦆](https://dev.to/abhirajadhikary06/dropbox-user-sentiment-analysis-using-airbyte-and-motherduck-1ggd)
+
 ## 📢 Stay Connected
 
 Have feedback or ideas? 😊 Feel free to reach out or contribute to this repository. Let’s make data integration and sentiment analysis accessible for everyone!
