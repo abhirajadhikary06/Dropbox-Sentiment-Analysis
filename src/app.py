@@ -12,7 +12,7 @@ import pandas as pd
 from utils.database import get_reviews_for_sentiment
 
 st.set_page_config(
-    page_title="Spotify Analysis",
+    page_title="Dropbox Analysis",
     page_icon="🎧",
     layout="wide",
 )
@@ -20,13 +20,13 @@ st.set_page_config(
 # Title and description
 st.markdown(
     """
-    <h1>📻<span style='color:#1db954'>Spotify</span> Reviews Sentiment Analysis</h1>
+    <h1>📻<span style='color:#0061FE'>Dropbox</span> Reviews Sentiment Analysis</h1>
     """,
     unsafe_allow_html=True
 )
 st.markdown(
     """
-    This dashboard provides deep insights into the sentiment of Spotify app reviews.
+    This dashboard provides deep insights into the sentiment of Dropbox app reviews.
     """
 )
 
@@ -64,22 +64,22 @@ with col3:
     st.metric("Negative Reviews", f"{negative_reviews} ({negative_reviews/len(reviews_df)*100:.1f}%)")
 
 # Sentiment Distribution Chart
-st.header("📈 Sentiment Distribution")
+st.header("📊 Sentiment Distribution")
 fig_sentiment_dist = px.histogram(
     reviews_df, 
     x='sentiment', 
     title=f'{sentiment_type} Distribution',
     labels={'sentiment': f'{sentiment_type} Score'},
-    color_discrete_sequence=['#1db954']
+    color_discrete_sequence=['#0061FE']
 )
 st.plotly_chart(fig_sentiment_dist, use_container_width=True)
 
 # Sentiment by Rating
-st.header("🌠 Sentiment by Rating")
+st.header("⭐ Sentiment by Rating")
 sentiment_by_rating = reviews_df.groupby('score')['sentiment'].mean().reset_index()
 
 # Custom colors for scores 1-5
-bar_colors = ['#ACEBC2', '#68DB91', '#00842F', '#1db954', '#00FF5A']
+bar_colors = ['#0056E0', '#0050D0', '#0048C0', '#0040B0', '#0038A0']
 
 # Create figure with custom colored bars
 fig_sentiment_rating = go.Figure(
@@ -111,7 +111,7 @@ fig_sentiment_rating.update_layout(
 st.plotly_chart(fig_sentiment_rating, use_container_width=True)
 
 # Sample Reviews
-st.header("🐧 Reviews")
+st.header("📝 Reviews")
 sentiment_categories = pd.cut(
     reviews_df['sentiment'], 
     bins=[-1, -0.5, 0.5, 1], 
@@ -133,6 +133,6 @@ for category in ['Negative', 'Neutral', 'Positive']:
 st.markdown("---")
 st.markdown("""
     <center>
-    <p>Sentiment Analysis of 📥 by <a href="https://github.com/abhirajadhikary06" style='color:#1db954' target="_blank">abhirajadhikary06</a></p>
+    <p>Sentiment Analysis of 📥 by <a href="https://github.com/abhirajadhikary06" style='color:#0061FE' target="_blank">abhirajadhikary06</a></p>
     </center>
 """, unsafe_allow_html=True)

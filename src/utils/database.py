@@ -13,7 +13,7 @@ def get_reviews_for_sentiment():
         content,
         score,
         _airbyte_extracted_at
-    FROM spotify_reviews
+    FROM dropbox_reviews
     WHERE content IS NOT NULL AND content != ''
     """  # Define the SQL query to select relevant review data
     return conn.execute(query).fetch_df()  # Execute the query and fetch the results as a DataFrame
