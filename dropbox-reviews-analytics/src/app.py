@@ -13,14 +13,14 @@ from utils.database import get_reviews_for_sentiment
 
 st.set_page_config(
     page_title="Dropbox Analysis",
-    page_icon="🎧",
+    page_icon="🗳️",
     layout="wide",
 )
 
 # Title and description
 st.markdown(
     """
-    <h1>📻<span style='color:#0061FE'>Dropbox</span> Reviews Sentiment Analysis</h1>
+    <h1>🗳️<span style='color:#0061FE'>Dropbox</span> Reviews Sentiment Analysis</h1>
     """,
     unsafe_allow_html=True
 )
