@@ -174,6 +174,12 @@ st.plotly_chart(fig)
 
 🔗 **Live Demo:** [Streamlit Dashboard](https://airbyte-motherduck-hackathon-sentiment-analysis.streamlit.app)
 
+🔗 **Motherduck Instance:** 
+```
+-- Run this snippet to attach database
+ATTACH 'md:_share/abhiraj_db/275eb3cc-2d8b-4705-a787-39c8010e8b2f';
+```
+
 ---
 
 ## 📜 **License**
